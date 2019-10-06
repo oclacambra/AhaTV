@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">SofiTV</string>
+    <string name="title_MovieTrailers">Trailers</string>
+    <string name="title_News">News</string>
+    <string name="title_notifications">About</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--<string name="tv_shows">Channels</string>-->
+
+    <string name="action_sortPopular">Popular Movies</string>
+    <string name="action_sortTopRated">Top Rated Movies</string>
+    <string name="data_not_available">Data Not Available</string>
+    <string name="no_connection">Failed to load data.  Please check connection and try again.</string>
+    <string name="action_sortFavorite">Favorite Movies</string>
+    <string name="ADD_FAVORITE">Add to Favorites</string>
+    <string name="REMOVE_FAVORITE">Remove from Favorites</string>
+    <string name="review_not_available">Reviews not available</string>
+
+    <string name="accept">Accept</string>
+    <string name="eula_string">COPYRIGHTS:
+
+\nCopyright 2019 SofiTV by ElyOctal. All Rights Reserved.
+\n
+\nLICENSE AGREEMENT
+\n
+\nThis application or App entitled \"SofiTV\" may not, in whole or in any part, be copied, reproduced, transmitted, translated (into any language,
+        natural or computer), stored in a retrieval system, reduced to any electronic medium or machine readable format, or by any other form or means
+        without prior consent, in writing, from SofiTV and its creator ElyOctal.
+\n
+\nYou are granted a limited license to use this App. The App may be used or copied only in accordance with the terms of that license, which is described in
+        the following paragraphs.
+\n
+\nTRADEMARKS:
+\n
+\nSofiTV logo is a trademark of SofiTV.
+\nTitles, photos , illustrations and articles may be subject to copyright of those who owns it.
+\nVideos or channels link in this App are source from different base urls of different sites .
+\nSofiTV does not own any videos, channels and contents.
+\nMovie trailers, videos, and photos appeared on this app are owned by The Movie Database (TMDb).
+\n
+\nLICENSE:
+\n
+\n\"SofiTV\" shall be taken to mean the software contained in this app and any subsequent versions or upgrades received as a result of having
+        downloaded this app. \"USER\" shall be taken as the original receiver of the software.
+\n
+\nUser has the non-exclusive right to the use of the app only on a single device. User may not electronically transfer the program from one device to
+        another over any type of network. User may not distribute copies of the app or the accompanying documentation to others either for a fee or without
+        charge. User may not modify or translate the program or documentation. User may not disassemble the program or allow it to be disassembled into
+        its constituent source code. User\'s use of the software indicates his/her acceptance of these terms and conditions.
+\n
+\nIf user does not agree to these conditions, return the distribution media, documentation, and associated materials to the vendor from whom the app was
+        purchased, and/or uninstall the software from the device, and erase the software from any and all storage devices upon which it may have been installed.
+\n
+\nThis license agreement shall be governed by the laws of The United States of America, and shall inure to the benefit of SofiTV or its assigns.
+\n
+\nDISCLAIMER / LIMITATION OF LIABILITY:
+\n
+\nUser acknowledges that the software may not be free from defects and may not satisfy all of User\'s needs.  The app and any accompanying written
+        materials are licensed \"AS IS\". Users exclusive remedy during the warranty period (if any) shall consist of replacement of distribution media if
+        determined to be faulty.
+\n
+\nIn no event will SofiTV be liable for direct, indirect, incidental or consequential damage or damages resulting from loss of use, or loss of
+        anticipated profits resulting from any defect in the app, even if it has been advised of the possibility of such damage.The user is advise to verify such
+        information or direction before use.
+\n
+\nSPECIFIC RESTRICTIONS:
+\n
+\nIn accordance with the COMPUTER SOFTWARE RENTAL ACT OF 1990, this app may not be rented, lent or leased. The app and accompanying
+        documentation may not be provided by a \"Backup Service\" or any other vendor which does not provide an original package as composed of
+        SofiTV, including but not limited to all original distribution media, documentation, registration cards, and insertions.
+
+</string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "939745560687",
+    "firebase_url": "https://sofitv-f87e1.firebaseio.com",
+    "project_id": "sofitv-f87e1",
+    "storage_bucket": "sofitv-f87e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939745560687:android:3b9c428298bc016730659a",
+        "android_client_info": {
+          "package_name": "com.octaltakeoff.ahatv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939745560687-q9gn05s9ug9ubobqhamrjgfj67q18n0k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.octaltakeoff.ahatv",
+            "certificate_hash": "a8c30592858219db70fc3a76b3d7bbd971d4e16b"
+          }
+        },
+        {
+          "client_id": "939745560687-840t2rf4m284umsqgfa5lnfun69nispv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGj8Fn-ysmW_JfX_RC5UFK2mfan_bHpOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "939745560687-840t2rf4m284umsqgfa5lnfun69nispv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".ui.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/appbar_padding_top"
+        app:layout_scrollFlags="scroll|enterAlways|snap">
+        <!--android:theme="@style/AppTheme.AppBarOverlay">-->
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsingToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:fitsSystemWindows="true"
+            app:collapsedTitleGravity="left"
+            app:logo="@drawable/sofilogo"
+            app:collapsedTitleTextAppearance="@style/collapsedAppBar"
+            app:contentScrim="#A6FF5722"
+            app:expandedTitleGravity="center_horizontal|bottom"
+            app:expandedTitleMarginBottom="16dp"
+            app:expandedTitleMarginEnd="0dp"
+            app:expandedTitleMarginStart="0dp"
+            app:expandedTitleTextAppearance="@style/expandedAppBarShadow"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/featured_image1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:elevation="3dp"
+                    android:scaleType="centerCrop"
+                    android:visibility="visible"
+                    app:layout_collapseMode="parallax"
+                    android:background="@drawable/layout_background"
+                    android:src="@drawable/soficoverphotofinal"/>
+
+
+
+                <ProgressBar
+                    android:id="@+id/progress_indicator"
+                    style="@style/Widget.AppCompat.ProgressBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:elevation="3dp"
+                    android:visibility="invisible" />
+
+            </RelativeLayout>
+
+
+            <ImageView
+                android:id="@+id/featured_image2"
+                android:layout_width="896px"
+                android:layout_height="180px"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:elevation="4dp"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
+                android:layout_centerInParent="true"
+                app:layout_collapseMode="parallax"
+                app:layout_collapseParallaxMultiplier=".5"
+                android:layout_gravity="center"
+                android:src="@drawable/sofitvlogowithbackground"/>
+
+<!--            <TextView-->
+<!--                android:id="@+id/stripView"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="?attr/actionBarSize"-->
+<!--                android:textSize="40sp"-->
+<!--                android:layout_gravity="bottom"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                android:text=""-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="@color/colorAccent"-->
+<!--                android:background="#BFFF5722"-->
+<!--                android:visibility="visible"-->
+<!--                app:layout_collapseMode="parallax"-->
+<!--                app:layout_collapseParallaxMultiplier=".4"-->
+<!--                android:paddingTop="8dp"/>-->
+                <!--android:textAppearance="@style/featureTextShadows"/>-->
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:elevation="3dp"
+                app:collapseIcon="@color/colorAccent"
+                app:popupTheme="@style/ThemeOverlay.MyTheme"
+                app:title=" "
+                app:theme="@style/ToolbarTheme"
+                app:titleTextColor="@color/colorAccent"
+                app:layout_collapseMode="pin">
+                <!--app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">-->
+
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_gravity="bottom"
+            android:elevation="6dp"
+            android:scrollbarStyle="insideInset"
+            app:tabGravity="fill"
+            app:tabIconTint="@color/colorAccent"
+            app:tabIndicatorColor="@color/colorPrimary"
+            app:tabMinWidth="140dp"
+            app:tabMode="scrollable"
+            app:tabSelectedTextColor="@color/colorPrimary"
+            app:tabTextColor="@color/tab_textColor"
+            android:background="@color/tab_background"
+            app:tabTextAppearance="@style/MyCustomTextAppearance"/>
+            <!--app:layout_collapseMode="pin"-->
+            <!--app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"/>-->
+
+
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ImageView
+        android:id="@+id/no_internet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/nointernet"
+        android:visibility="gone"/>
+
+
+
+    <com.octaltakeoff.ahatv.ui.CustomViewPagerChannel
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <com.octaltakeoff.ahatv.ui.CustomViewPagerMovies
+        android:id="@+id/container2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+<!--    <com.octaltakeoff.ahatv.ui.CustomViewPagerNews-->
+<!--        android:id="@+id/container3"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        app:layout_behavior="@string/appbar_scrolling_view_behavior" />-->
+
+    <com.octaltakeoff.ahatv.ui.CustomViewPagerAbout
+        android:id="@+id/container4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:layout_anchor="@id/container"
+        ads:layout_anchorGravity="bottom"
+        android:layout_gravity="bottom"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-5138732050544010/7238061691"
+        android:layout_marginBottom="56dp">
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="?android:attr/windowBackground"
+        android:layout_gravity="bottom"
+        app:menu="@menu/bottom_nav_menu"
+        app:labelVisibilityMode="labeled"
+        app:layout_collapseMode="pin"
+        app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"/>
+
+</android.support.design.widget.CoordinatorLayout>

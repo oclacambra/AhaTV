@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#E64A19</color>
+    <color name="colorPrimaryDark">#FF5722</color>
+    <color name="colorAccent">#FFC107</color>
+
+    <color name="textColorSecondary">#ffffff</color>
+    <color name="colorLayoutBackground">#eceff1</color>
+
+    <color name="tab_background">#eceff1</color>
+    <color name="white">#ffffff</color>
+    <color name="tab_textColor">#80000000</color>
+
+    <color name="colorBackground">#cfd8dc</color>
+
+</resources>

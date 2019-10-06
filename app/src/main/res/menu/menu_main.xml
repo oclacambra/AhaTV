@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.user.octaltakeoff.onscreentoursonly.MainActivity">
+
+    <item
+        android:id="@+id/action_privacyPolicy"
+        android:orderInCategory="100"
+        android:title="Privacy Policy"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_licenseAgreement"
+        android:orderInCategory="100"
+        android:title="License Agreement"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about_theApp"
+        android:orderInCategory="100"
+        android:title="About the App"
+        app:showAsAction="never"/>
+
+    <!--<item android:id="@+id/menu_share"-->
+        <!--android:icon="@drawable/ic_directions_brown_36x24dp"-->
+        <!--app:showAsAction="ifRoom"-->
+        <!--android:title="@string/app_name" />-->
+</menu>

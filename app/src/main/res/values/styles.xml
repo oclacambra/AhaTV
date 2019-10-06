@@ -1,0 +1,88 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--Allow transition animation-->
+        <item name="android:windowContentTransitions" tools:targetApi="lollipop">true</item>
+        <!--<item name="android:textColorSecondary">@color/textColorSecondary</item>-->
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/MyCustomTextAppearance</item>
+    </style>
+
+    <style name="MyCustomTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="ToolbarTheme" parent ="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!--Customize color of navigation icon and  back arrow-->
+        <item name="colorControlNormal">@color/white</item>
+
+    </style>
+
+    <!-- color and size of overflow menu dropdown view-->
+    <style name="ThemeOverlay.MyTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">@color/colorPrimary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!--Collapsing Toolbar style-->
+    <style name="expandedAppBar" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="collapsedAppBar" >
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+
+    </style>
+    <!--Create dark shadow around the text to read clearly in light background-->
+    <style name="expandedAppBarShadow" >
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowRadius">10</item>
+        <item name="android:shadowColor">@android:color/black</item>
+    </style>
+
+
+    <style name="AppTheme1" parent="AppTheme.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#455A64</item>
+        <item name="colorPrimaryDark">#607D8B</item>
+        <item name="colorAccent">#FFC107</item>
+        <!--<item name="android:textColorSecondary">@color/textColorSecondary</item>-->
+
+    </style>
+
+    <!-- for Splash Screen-->
+    <style name="splashScreenTheme" parent="android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splashscreensofitv</item>
+    </style>
+
+</resources>

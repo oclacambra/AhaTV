@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_channels"
+        android:icon="@drawable/ic_live_tv_black_24dp"
+        android:iconTint="@color/colorAccent"
+        android:title="Channels" />
+
+    <item
+        android:id="@+id/navigation_movieTrailers"
+        android:icon="@drawable/ic_local_movies_black_24dp"
+        android:iconTint="@color/colorAccent"
+        android:title="@string/title_MovieTrailers" />
+
+<!--    <item-->
+<!--        android:id="@+id/navigation_LocalNews"-->
+<!--        android:icon="@drawable/ic_language_black_24dp"-->
+<!--        android:iconTint="@color/colorAccent"-->
+<!--        android:title="@string/title_News" />-->
+
+    <item
+        android:id="@+id/navigation_about"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:iconTint="@color/colorAccent"
+        android:title="@string/title_notifications" />
+
+
+</menu>
